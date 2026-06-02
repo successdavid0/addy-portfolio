@@ -6,20 +6,20 @@ export const metadata = {
 const socials = [
   {
     label: "Email",
-    value: "addy@email.com",
-    href: "mailto:addy@email.com",
+    value: "pvtsoap26@gmail.com",
+    href: "mailto:pvtsoap26@gmail.com",
     note: "Best for briefs and project details",
   },
   {
     label: "Telegram",
-    value: "@addycreates",
-    href: "https://t.me/addycreates",
+    value: "@Addyyyonchain",
+    href: "https://t.me/Addyyyonchain",
     note: "Fastest way to schedule a call",
   },
   {
     label: "X / Twitter",
-    value: "@addycreates",
-    href: "https://x.com/addycreates",
+    value: "@AddyyyOnChain",
+    href: "https://x.com/AddyyyOnChain",
     note: "Follow for content strategy threads",
   },
 ];
