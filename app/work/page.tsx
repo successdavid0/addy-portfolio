@@ -26,6 +26,23 @@ const projects = [
     ],
   },
   {
+    id: 2,
+    role: "Founder — Vyro",
+    client: "Fhenix",
+    bullets: [
+      "Founded and led Vyro, a creator-focused initiative aimed at collaborative video content production.",
+      "Onboarded 10+ video creators and established a strong foundation during the early growth phase.",
+      "Spearheaded innovative multi-creator video formats to effectively showcase project highlights and key messages.",
+    ],
+    stats: [
+      { value: "10+", label: "Creators onboarded" },
+    ],
+    links: [
+      { label: "View video 1", href: "https://x.com/AddyyyOnChain/status/2058801068604375507?s=20" },
+      { label: "View video 2", href: "https://x.com/AddyyyOnChain/status/2047954748024996051?s=20" },
+    ],
+  },
+  {
     id: 4,
     role: "Content Ambassador",
     client: "Reya",
@@ -73,7 +90,7 @@ const projects = [
 ];
 
 const numberBlocks = [
-  { value: "16,000+", label: "Views across WalletConnect & Reya" },
+  { value: "16,000+", label: "Views across WalletConnect & Fhenix" },
   { value: "1,000+", label: "Likes on Reya content" },
   { value: "150+", label: "Interactions on WalletConnect videos" },
   { value: "2,000+", label: "Community members grown in 1 week" },
