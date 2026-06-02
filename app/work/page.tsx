@@ -7,6 +7,34 @@ export const metadata = {
 
 const projects = [
   {
+    id: 1,
+    role: "Founder",
+    client: "Vyro",
+    bullets: [
+      "Founded and led Vyro, a creator-focused initiative aimed at collaborative video content production.",
+      "Onboarded 10+ video creators and established a strong foundation during the early growth phase.",
+      "Spearheaded innovative multi-creator video formats to effectively showcase project highlights and key messages.",
+    ],
+    stats: [
+      { value: "10+", label: "Creators onboarded" },
+    ],
+    links: [],
+  },
+  {
+    id: 2,
+    role: "Video Creator",
+    client: "Fhenix",
+    bullets: [
+      "Produced video content highlighting Fhenix's core features and ecosystem to drive awareness.",
+      "Crafted engaging narratives tailored to the Web3 audience to increase project visibility.",
+    ],
+    stats: [],
+    links: [
+      { label: "View video 1", href: "https://x.com/AddyyyOnChain/status/2058801068604375507?s=20" },
+      { label: "View video 2", href: "https://x.com/AddyyyOnChain/status/2047954748024996051?s=20" },
+    ],
+  },
+  {
     id: 3,
     role: "Video Creator",
     client: "WalletConnect",
@@ -23,23 +51,6 @@ const projects = [
     links: [
       { label: "View video 1", href: "https://x.com/AddyyyOnChain/status/2056393866383954334?s=20" },
       { label: "View video 2", href: "https://x.com/AddyyyOnChain/status/2055658335811342341?s=20" },
-    ],
-  },
-  {
-    id: 2,
-    role: "Founder — Vyro",
-    client: "Fhenix",
-    bullets: [
-      "Founded and led Vyro, a creator-focused initiative aimed at collaborative video content production.",
-      "Onboarded 10+ video creators and established a strong foundation during the early growth phase.",
-      "Spearheaded innovative multi-creator video formats to effectively showcase project highlights and key messages.",
-    ],
-    stats: [
-      { value: "10+", label: "Creators onboarded" },
-    ],
-    links: [
-      { label: "View video 1", href: "https://x.com/AddyyyOnChain/status/2058801068604375507?s=20" },
-      { label: "View video 2", href: "https://x.com/AddyyyOnChain/status/2047954748024996051?s=20" },
     ],
   },
   {
